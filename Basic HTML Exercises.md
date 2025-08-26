@@ -2,7 +2,7 @@
 
 **1. How to comment HTML tags?**
 
-<!-- This is an HTML comment -->
+\<!-- This is an HTML comment -->
 
 **2. How to create a hyperlink?**
 
