@@ -60,3 +60,59 @@ For example: The <abbr title="World Health Organization">WHO</abbr> was founded 
 \<head>
   \<base href="https://www.w3schools.com/" target="_blank">
 \</head>
+
+**11. How to isolate a part of the text that might be formatted in a different direction from other text outside it?**
+
+BDI stands for Bi-Directional Isolation.
+
+The \<bdi> tag isolates a part of text that might be formatted in a different direction from other text outside it.
+
+This element is useful when embedding user-generated content with an unknown text direction.
+
+Example:
+
+<ul>
+  <li>User <bdi>hrefs</bdi>: 60 points</li>
+  <li>User <bdi>jdoe</bdi>: 80 points</li>
+  <li>User <bdi>إيان</bdi>: 90 points</li>
+</ul>
+
+**12. How to override the current text direction?**
+
+BDO stands for Bi-Directional Override.
+
+The \<bdo> tag is used to override the current text direction.
+
+Example:
+
+\<bdo dir="rtl">
+This text will go right-to-left.
+\</bdo>
+
+**13. How to define a section that is quoted from another source?**
+
+The \<blockquote> tag specifies a section that is quoted from another source.
+
+Example:
+
+<blockquote cite="http://www.worldwildlife.org/who/index.html">
+For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million globally.
+</blockquote>
+
+
+**14. How to define the document's body?**
+
+The \<body> tag defines the document's body.
+
+\<body>
+  \<h1>This is a heading\</h1>
+  \<p>This is a paragraph.\</p>
+\</body>
+
+**15. How to define a single line break?**
+
+The \<br> tag inserts a single line break.
+
+Example:
+
+\<p>To force\<br> line breaks\<br> in a text,\<br> use the br\<br> element.</p>
