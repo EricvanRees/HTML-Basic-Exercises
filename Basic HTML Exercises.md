@@ -116,3 +116,57 @@ The \<br> tag inserts a single line break.
 Example:
 
 \<p>To force\<br> line breaks\<br> in a text,\<br> use the br\<br> element.</p>
+
+**16. How to define a clickable button?**
+
+\<button type="button">Click Me!</button>
+
+**17. How to draw graphics, on the fly, via scripting?**
+
+The \<canvas> tag is used to draw graphics, on the fly, via scripting (usually JavaScript).
+
+\<canvas id="myCanvas">
+Your browser does not support the canvas tag.
+\</canvas>
+
+\<script>
+let canvas = document.getElementById("myCanvas");
+let ctx = canvas.getContext("2d");
+ctx.fillStyle = "#FF0000";
+ctx.fillRect(0, 0, 80, 80);
+\</script>
+
+**18. How to define a table caption?**
+
+The \<caption> tag defines a table caption.
+
+The \<caption> tag must be inserted immediately after the <table> tag.
+
+\<table>
+  \<caption>Monthly savings\</caption>
+  \<tr>
+    \<th>Month\</th>
+    \<th>Savings\</th>
+  \</tr>
+  \<tr>
+    \<td>January\</td>
+    \<td>$100\</td>
+  \</tr>
+\</table>
+
+**19. How to define the title of an HTML document?**
+
+\<title>Document\</title>
+
+**20. How to specify the column properties of each column within a colgroup element?**
+
+The \<colgroup> tag specifies a group of one or more columns in a table for formatting.
+
+The \<colgroup> tag is useful for applying styles to entire columns, instead of repeating the styles for each cell, for each row.
+
+Example:
+
+\<colgroup>
+    \<col span="2" style="background-color:red">
+    \<col style="background-color:yellow">
+  \</colgroup>
