@@ -170,3 +170,14 @@ Example:
     \<col span="2" style="background-color:red">
     \<col style="background-color:yellow">
   \</colgroup>
+  
+  **21. How to define a piece of code?**
+  **a. How to render as emphasized text?**
+  
+  The \<em> tag is used to define emphasized text. The content inside is typically displayed in italic.
+
+  **b. How to define important text?**
+
+  The \<strong> tag is used to define text with strong importance. The content inside is typically displayed in bold.
+
+
